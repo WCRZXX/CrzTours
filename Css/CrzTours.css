@@ -1,0 +1,260 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #f6f6f6;
+	font-family: Times;
+}
+
+div.cabeza{
+	width: 100%;
+	height: 170px;
+	background-image: url(../fotos/logo3.jpg);
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	background-size: 100% 170px;
+	margin-top: 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+.cabeza h1 i{
+	font-size: 40px;
+	color: white;
+	line-height: 50px;
+	font-weight: 300;
+	transition: all 0.3s ease;
+	text-align: center;
+}
+
+.logo{
+	position: relative;
+	top: 10px;
+	left: 40px;
+}
+
+
+
+/*Hasta aqui el encabezado*/
+
+
+.cuerpo1 div{
+	background-color: #efefef;
+	padding: 0px 0px 10px 0px;
+	margin: 10px 10px 10px 10px;
+	display: inline-block;
+	align-content: center;
+}
+
+
+h2{
+	font-size: 40px;
+	margin: 5px;
+}
+
+.dinero{
+	font-size: 1.5em;
+	text-align: right;
+	color: #999999;
+}
+
+.cuerpo1 div a{
+	text-decoration: none;
+	color: #000;
+}
+
+.cuerpo2 div{
+	background-color: #efefef;
+	padding: 0px 0px 10px 0px;
+	margin: 15px 15px 15px 25px;
+	display: inline-block;
+	align-content: center;
+	width: 315px;
+	height: 400px;
+
+}
+
+.Ofertas1{
+
+
+}
+
+.cuerpo3 img{ 
+	margin: 20px 5px 20px 40px;
+}
+
+/*Aquí comienza el pie de página*/
+
+.pielog{
+	background-image: url(../fotos/pie3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	width: 100%;
+	height:;
+
+}
+
+.pie{
+	max-width: 300px;
+}
+
+.pie img{
+	display: inline-block;
+	margin: 50px 0px 0px 80px;
+}
+
+.pie h2 i{
+	color: #fff;
+	position: relative;
+	bottom: 15px;
+	left: 25px;
+}
+
+.cuerpopie2{
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	font-size: 20px;
+	text-decoration-line: none;
+	max-width: 300px;
+
+}
+
+
+.cuerpopie2 nav{
+	position: relative;
+	left: 30px;
+}
+
+.cuerpopie2 h2{
+	color: #fff;
+	font-size: 24px;
+	position: relative;
+	left: 10px;
+}
+
+.cuerpopie3 h2{
+	color: #fff;
+	font-size: 24px;
+	position: relative;
+	left:20px;
+	
+}
+
+.redes h2{
+	color: #fff;
+	font-size: 24px;
+	position: relative;
+	left: 10px;
+	
+}
+
+.cuerpopie3{
+	position: relative;
+	max-width: 300px;
+
+
+}
+
+.numero{
+	position: relative;
+	left: 25px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.numero img{
+	width: 35px;
+	height: 35px;
+}
+
+.redes{
+	position: relative;
+	max-width: 300px;
+
+
+}
+
+.red{
+	position: relative;
+	left: 20px;
+	margin-top:20px;
+	display: flex;
+}
+.red img{
+	width: 35px;
+	height: 35px;
+}
+
+.red label{
+	margin-top: 5px;
+	margin-left: 10px;
+	color: #c7c7c7;
+}
+
+
+.container-body{
+	display: flex;
+	justify-content: space-between;
+}
+
+.all{
+	width: 100%;
+	max-width: 1200px;
+	padding: 20px;
+}
+
+.footer{
+	width: 100%;
+	background-color: #343a40;
+		display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.foot{
+
+
+}
+
+.rights{
+	color: #c7c7c7;
+}
+
+.terms a{
+	text-decoration: none;
+	color: #c7c7c7;
+}
+
+.terms a hover{
+	color: #fff;
+}
+
+@media screen and (max-width: 1100px;) {
+	.container-body{
+		flex-wrap: wrap;
+	}
+	
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

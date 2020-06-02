@@ -1,0 +1,16 @@
+p{
+	font-style: italic;
+}
+
+a:hover {
+  color: #cb3234;
+}
+
+a:focus{
+	color: green;
+}
+
+div.destacadi ul.importante li{
+	color: #cb3234;
+
+}

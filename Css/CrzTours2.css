@@ -1,0 +1,243 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #f6f6f6;
+	font-family: Times;
+}
+
+div.cabeza{
+	width: 100%;
+	height: 170px;
+	background-image: url(../fotos/logo3.jpg);
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	background-size: 100% 170px;
+	margin-top: 0;
+	text-align: center;
+	overflow: hidden;
+}
+
+.cabeza h1 i{
+	font-size: 40px;
+	color: white;
+	line-height: 50px;
+	font-weight: 300;
+	transition: all 0.3s ease;
+	text-align: center;
+}
+
+.logo{
+	position: relative;
+	top: 10px;
+	left: 40px;
+}
+
+
+
+
+/*Hasta aquí el encabezado*/
+
+
+h2{
+	font-size: 40px;
+	margin: 25px;
+}
+
+div.Hoteles{
+	width: 400px;
+	height: 146px;
+	background-color: #efefef;
+	margin: 10px;
+	display: inline-block;
+ }
+
+ .Hoteles img{
+ 	float: left;
+ 	position: relative;
+ 	right: 15px;
+ }
+
+
+.Hoteles input{
+	position: relative;
+	top: 50px;
+	right: 20px;
+	float: right;
+}
+
+.Hoteles p{
+	position: relative;
+	top: 100px;
+	left: 10px;
+}
+
+.Hoteles1 b{
+	position: relative;
+	left: 20px;
+	top: 10px;
+}
+
+.Paradise{
+	margin: 30px;
+
+}
+
+
+/*Aquí comienza el pie de página*/
+
+.pielog{
+	background-image: url(../fotos/pie3.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% ;
+	width: 100%;
+	height:;
+
+}
+
+.pie{
+	max-width: 300px;
+}
+
+.pie img{
+	display: inline-block;
+	margin: 50px 0px 0px 80px;
+}
+
+.pie h2 i{
+	color: #fff;
+	position: relative;
+	bottom: 15px;
+	left: 25px;
+}
+
+.cuerpopie2{
+	display: inline-block;
+	position: relative;
+	text-decoration: none;
+	font-size: 20px;
+	text-decoration-line: none;
+	max-width: 300px;
+
+}
+
+
+.cuerpopie2 nav{
+	position: relative;
+	left: 30px;
+}
+
+.cuerpopie2 h2{
+	color: #fff;
+	font-size: 24px;
+	position: relative;
+	left: 10px;
+}
+
+.cuerpopie3 h2{
+	color: #fff;
+	font-size: 24px;
+	position: relative;
+	left:20px;
+	
+}
+
+.redes h2{
+	color: #fff;
+	font-size: 24px;
+	position: relative;
+	left: 10px;
+	
+}
+
+.cuerpopie3{
+	position: relative;
+	max-width: 300px;
+
+
+}
+
+.numero{
+	position: relative;
+	left: 25px;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+.numero img{
+	width: 35px;
+	height: 35px;
+}
+
+.redes{
+	position: relative;
+	max-width: 300px;
+
+
+}
+
+.red{
+	position: relative;
+	left: 20px;
+	margin-top:20px;
+	display: flex;
+}
+.red img{
+	width: 35px;
+	height: 35px;
+}
+
+.red label{
+	margin-top: 5px;
+	margin-left: 10px;
+	color: #c7c7c7;
+}
+
+
+.container-body{
+	display: flex;
+	justify-content: space-between;
+}
+
+.all{
+	width: 100%;
+	max-width: 1200px;
+	padding: 20px;
+}
+
+.footer{
+	width: 100%;
+	background-color: #343a40;
+		display: flex;
+	justify-content: space-between;
+	padding: 20px;
+}
+
+.foot{
+
+
+}
+
+.rights{
+	color: #c7c7c7;
+}
+
+.terms a{
+	text-decoration: none;
+	color: #c7c7c7;
+}
+
+.terms a hover{
+	color: #fff;
+}
+
+@media screen and (max-width: 1100px;) {
+	.container-body{
+		flex-wrap: wrap;
+	}
+	
+
+
+}
